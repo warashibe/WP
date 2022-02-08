@@ -16,6 +16,10 @@ module.exports = {
       url: secrets.polygon.url,
       accounts: [secrets.polygon.key],
     },
+    shibuya: {
+      url: secrets.shibuya.url,
+      accounts: [secrets.shibuya.key],
+    },
   },
   etherscan: {
     apiKey: secrets.polygon.apiKey,
